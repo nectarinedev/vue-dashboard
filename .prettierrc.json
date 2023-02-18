@@ -3,6 +3,7 @@
 	"bracketSameLine": false,
 	"bracketSpacing": true,
 	"embeddedLanguageFormatting": "auto",
+	"endOfLine": "auto",
 	"htmlWhitespaceSensitivity": "css",
 	"insertPragma": false,
 	"jsxSingleQuote": true,
@@ -16,5 +17,5 @@
 	"tabWidth": 2,
 	"trailingComma": "es5",
 	"useTabs": true,
-	"vueIndentScriptAndStyle": true
+	"vueIndentScriptAndStyle": false
 }
