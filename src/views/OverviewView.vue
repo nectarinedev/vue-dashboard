@@ -4,6 +4,7 @@ import ReturningVisitors from '@/components/Visitor/ReturningVisitors.vue';
 import CurrentVisitors from '@/components/Visitor/CurrentVisitors.vue';
 import ActivePages from '@/components/Page/ActivePages.vue';
 import ActiveLocations from '@/components/Location/ActiveLocations.vue';
+import ActiveReferrals from '@/components/Referral/ActiveReferrals.vue';
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import ActiveLocations from '@/components/Location/ActiveLocations.vue';
 		<div class="summary__container">
 			<ActivePages />
 			<ActiveLocations />
+			<ActiveReferrals />
 		</div>
 	</main>
 </template>
