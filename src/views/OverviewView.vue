@@ -5,6 +5,7 @@ import CurrentVisitors from '@/components/Visitor/CurrentVisitors.vue';
 import ActivePages from '@/components/Page/ActivePages.vue';
 import ActiveLocations from '@/components/Location/ActiveLocations.vue';
 import ActiveReferrals from '@/components/Referral/ActiveReferrals.vue';
+import VisitorGraph from '@/components/Graphs/VisitorGraph.vue';
 </script>
 
 <template>
@@ -13,6 +14,9 @@ import ActiveReferrals from '@/components/Referral/ActiveReferrals.vue';
 			<UniqueVisitors />
 			<ReturningVisitors />
 			<CurrentVisitors />
+		</div>
+		<div>
+			<VisitorGraph />
 		</div>
 		<div class="summary__container">
 			<ActivePages />
