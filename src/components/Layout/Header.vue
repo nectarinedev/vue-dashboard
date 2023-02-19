@@ -5,11 +5,7 @@ import Button from 'primevue/button';
 <template>
 	<header>
 		<nav>
-			<div class="header">
-				<RouterLink to="/">
-					<Button>Dashboard</Button>
-				</RouterLink>
-			</div>
+			<div class="header"></div>
 		</nav>
 	</header>
 </template>
@@ -18,9 +14,6 @@ import Button from 'primevue/button';
 .header {
 	height: 100px;
 	background-color: black;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
 	gap: 70px;
 	padding-right: 50px;
 }

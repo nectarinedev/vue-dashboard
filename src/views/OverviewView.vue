@@ -28,7 +28,6 @@ main {
 	flex-direction: column;
 	align-items: center;
 	gap: 50px;
-	margin: 50px;
 }
 
 .visitors__container {
