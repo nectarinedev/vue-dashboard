@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import Button from 'primevue/button';
-
 interface SidebarList {
 	name: string;
 	link: string;
