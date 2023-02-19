@@ -24,7 +24,7 @@ const pageList: PageList[] = [
 						:key="page.url"
 					>
 						<td class="active-pages__count">{{ page.count }}</td>
-						<td>{{ page.url }}</td>
+						<td class="active-pages__url">{{ page.url }}</td>
 					</tr>
 				</tbody>
 			</table>
@@ -51,13 +51,14 @@ const pageList: PageList[] = [
 .active-pages__count {
 	font-weight: bold;
 	font-size: larger;
+	width: 40px;
+}
+
+.active-pages__url {
+	font-size: larger;
 }
 
 tr {
 	line-height: 40px;
-}
-
-td {
-	width: 30px;
 }
 </style>

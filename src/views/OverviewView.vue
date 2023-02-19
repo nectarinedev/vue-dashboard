@@ -3,6 +3,7 @@ import UniqueVisitors from '@/components/Visitors/UniqueVisitors.vue';
 import ReturningVisitors from '@/components/Visitors/ReturningVisitors.vue';
 import CurrentVisitors from '@/components/Visitors/CurrentVisitors.vue';
 import ActivePages from '@/components/Page/ActivePages.vue';
+import ActiveLocations from '@/components/Location/ActiveLocations.vue';
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import ActivePages from '@/components/Page/ActivePages.vue';
 		</div>
 		<div class="summary__container">
 			<ActivePages />
+			<ActiveLocations />
 		</div>
 	</main>
 </template>
