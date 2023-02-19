@@ -26,6 +26,7 @@ import ActiveReferrals from '@/components/Referral/ActiveReferrals.vue';
 main {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	gap: 50px;
 	margin: 50px;
 }
