@@ -1,16 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Header from '@/components/Layout/Header.vue';
+</script>
 
 <template>
-	<header>
-		<div class="wrapper">
-			<HelloWorld msg="You did it!" />
-
-			<nav>
-				<RouterLink to="/">Home</RouterLink>
-				<RouterLink to="/about">About</RouterLink>
-			</nav>
-		</div>
-	</header>
+	<Header />
 
 	<RouterView />
 </template>
