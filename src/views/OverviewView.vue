@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import UniqueVisitors from '@/components/Visitors/UniqueVisitors.vue';
-import ReturningVisitors from '@/components/Visitors/ReturningVisitors.vue';
-import CurrentVisitors from '@/components/Visitors/CurrentVisitors.vue';
+import UniqueVisitors from '@/components/Visitor/UniqueVisitors.vue';
+import ReturningVisitors from '@/components/Visitor/ReturningVisitors.vue';
+import CurrentVisitors from '@/components/Visitor/CurrentVisitors.vue';
 import ActivePages from '@/components/Page/ActivePages.vue';
 import ActiveLocations from '@/components/Location/ActiveLocations.vue';
 </script>
