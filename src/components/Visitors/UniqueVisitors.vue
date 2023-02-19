@@ -16,6 +16,7 @@
 	padding: 30px;
 	border-radius: 20px;
 	width: fit-content;
+	min-width: 300px;
 }
 
 .unique-visitors__title {
