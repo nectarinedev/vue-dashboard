@@ -2,6 +2,7 @@
 import UniqueVisitors from '@/components/Visitors/UniqueVisitors.vue';
 import ReturningVisitors from '@/components/Visitors/ReturningVisitors.vue';
 import CurrentVisitors from '@/components/Visitors/CurrentVisitors.vue';
+import ActivePages from '@/components/Page/ActivePages.vue';
 </script>
 
 <template>
@@ -11,17 +12,26 @@ import CurrentVisitors from '@/components/Visitors/CurrentVisitors.vue';
 			<ReturningVisitors />
 			<CurrentVisitors />
 		</div>
+		<div class="summary__container">
+			<ActivePages />
+		</div>
 	</main>
 </template>
 
 <style lang="css">
 main {
 	display: flex;
+	flex-direction: column;
 	gap: 50px;
 	margin: 50px;
 }
 
 .visitors__container {
+	display: flex;
+	gap: 50px;
+}
+
+.summary__container {
 	display: flex;
 	gap: 50px;
 }
