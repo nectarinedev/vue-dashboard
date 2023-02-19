@@ -1,11 +1,11 @@
-<script setup lang="ts">
-import Button from 'primevue/button';
-</script>
+<script setup lang="ts"></script>
 
 <template>
 	<header>
 		<nav>
-			<div class="header"></div>
+			<div class="header">
+				<span class="header__title">Nectarine Dev</span>
+			</div>
 		</nav>
 	</header>
 </template>
@@ -16,5 +16,14 @@ import Button from 'primevue/button';
 	background-color: black;
 	gap: 70px;
 	padding-right: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.header__title {
+	color: white;
+	margin: left;
+	margin-left: 100px;
+	font-size: xx-large;
 }
 </style>
