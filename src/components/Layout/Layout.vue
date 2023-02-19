@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Header from './Header.vue';
 import SideBar from './SideBar.vue';
+import Footer from './Footer.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import SideBar from './SideBar.vue';
 		<slot></slot>
 		<div />
 	</div>
+	<Footer />
 </template>
 
 <style scoped lang="css">
